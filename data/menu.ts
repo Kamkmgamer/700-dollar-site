@@ -170,11 +170,6 @@ export const events = [
     image: 'https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80',
     color: 'from-pink-600 to-rose-800',
   },
-    endTime: '2024-02-14T22:00:00',
-    price: 120,
-    capacity: 40,
-    image: 'https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80',
-  },
   {
     id: '4',
     title: 'Truffle Tasting Menu',
@@ -184,5 +179,6 @@ export const events = [
     price: 150,
     capacity: 20,
     image: 'https://images.unsplash.com/photo-1600093463592-8e36ae95ef56?w=800&q=80',
+    color: 'from-stone-700 to-stone-900',
   },
 ];
