@@ -26,7 +26,7 @@ export function Navigation() {
             Bella Italia
           </Link>
 
-          <div className="hidden lg:flex items-center space-x-8">
+          <div className="hidden xl:flex items-center space-x-8">
             {links.map((link) => (
               <Link
                 key={link.href}
@@ -57,7 +57,7 @@ export function Navigation() {
 
           <button
             onClick={() => setIsOpen(!isOpen)}
-            className="lg:hidden p-2 text-gray-800"
+            className="xl:hidden p-2 text-gray-800"
             aria-label="Toggle menu"
           >
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -76,7 +76,7 @@ export function Navigation() {
           initial={{ opacity: 0, height: 0 }}
           animate={{ opacity: 1, height: 'auto' }}
           exit={{ opacity: 0, height: 0 }}
-          className="lg:hidden bg-white border-t mt-2"
+          className="xl:hidden bg-white border-t mt-2"
         >
           <div className="px-4 py-4 space-y-2">
             {links.map((link) => (
